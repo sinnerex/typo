@@ -276,3 +276,44 @@ end
 Then /^show me the page$/ do
   save_and_open_page
 end
+
+Given /^the following articles exist:$/ do |table|
+  # table is a Cucumber::Ast::Table
+  pending # express the regexp above with the code you wish you had
+end
+
+Given /^I'am editing "(.*?)" on the article edit page$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^I should not see "(.*?)" section$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+Given /^the following comments exists:$/ do |table|
+  # table is a Cucumber::Ast::Table
+  pending # express the regexp above with the code you wish you had
+end
+
+When /^I fill in the "(.*?)" with "(.*?)"$/ do |arg1, arg2|
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^The new article should contains the text of both previous articles$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^The author is the "(.*?)" author$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^Comments from both merged articles are propertly migrated to the new article$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^The title is the "(.*?)" title$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+
+
